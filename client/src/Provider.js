@@ -7,7 +7,7 @@ const Provider = ({ children }) => {
 
   return (
     <div>
-      <Data.Provider value={{ show, setShow }}>
+      <Data.Provider value={{show,setShow}}>
         {children}
       </Data.Provider>
     </div>
